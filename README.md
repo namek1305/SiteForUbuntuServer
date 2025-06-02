@@ -37,7 +37,7 @@ dotnet run --urls "http://0.0.0.0:5000"
  rm -rf ~/SiteForUbuntuServer  - удаление папки
 
 
-![image](https://github.com/user-attachments/assets/23187891-b993-4c3f-b38a-34d94b29e65f)
+![image](https://github.com/user-attachments/assets/73b3919b-e579-4ffe-b454-0e9f5d82c999)
 
 
 если будет нужен nginx
