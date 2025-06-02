@@ -15,7 +15,7 @@ sudo apt update
 sudo apt install -y dotnet-sdk-8.0
 
 4. Git
-ssh-keygen -t ed25519 -C "namek1305@gmail.com" - ключ
+ssh-keygen -t ed25519 -C "namek1305@gmail.com" - ключ потом enter два раза
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 cat ~/.ssh/id_ed25519.pub - содержание этого копируешь и вставляешь на гитхаб
@@ -64,9 +64,7 @@ server {
 }
 
 
-или это
-
-
+или это как в примере было сделано
 server {
     listen 80;
     location / {
@@ -110,6 +108,9 @@ http://127.0.0.1:8080
 Получается у тебя сайт доступен по порту 5000 - это кестрель (встроенный .NET)
 А 8080 - nginx
 
+http://localhost:80/health или http://localhost:90/api/animeseries или http://localhost:80/api/animecharacters
+
 для тестов 
 curl http://localhost:80/health
 curl http://localhost:5050/health
+history вывод команд всех для показа крутоты
