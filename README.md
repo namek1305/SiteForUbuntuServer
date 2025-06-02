@@ -9,10 +9,10 @@ sudo systemctl start ssh
 2. Пробросы и настройка Putty (см рисунок 1 и 2)
 
 3. Установка .NET
-wget https://packages.microsoft.com/config/ubuntu/22.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
-sudo dpkg -i packages-microsoft-prod.deb
-sudo apt update
-sudo apt install -y dotnet-sdk-8.0
+ wget https://packages.microsoft.com/config/ubuntu/22.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+ sudo dpkg -i packages-microsoft-prod.deb
+ sudo apt update
+ sudo apt install -y dotnet-sdk-8.0
 
 4. Git
 ssh-keygen -t ed25519 -C "твой_email@пример.com" - ключ
