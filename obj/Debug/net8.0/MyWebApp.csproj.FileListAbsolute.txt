@@ -1,0 +1,50 @@
+C:\Users\van_d\MyWebApp\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\van_d\MyWebApp\bin\Debug\net8.0\appsettings.json
+C:\Users\van_d\MyWebApp\bin\Debug\net8.0\MyWebApp.exe
+C:\Users\van_d\MyWebApp\bin\Debug\net8.0\MyWebApp.deps.json
+C:\Users\van_d\MyWebApp\bin\Debug\net8.0\MyWebApp.runtimeconfig.json
+C:\Users\van_d\MyWebApp\bin\Debug\net8.0\MyWebApp.dll
+C:\Users\van_d\MyWebApp\bin\Debug\net8.0\MyWebApp.pdb
+C:\Users\van_d\MyWebApp\obj\Debug\net8.0\MyWebApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\van_d\MyWebApp\obj\Debug\net8.0\MyWebApp.AssemblyInfoInputs.cache
+C:\Users\van_d\MyWebApp\obj\Debug\net8.0\MyWebApp.AssemblyInfo.cs
+C:\Users\van_d\MyWebApp\obj\Debug\net8.0\MyWebApp.csproj.CoreCompileInputs.cache
+C:\Users\van_d\MyWebApp\obj\Debug\net8.0\MyWebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\van_d\MyWebApp\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\van_d\MyWebApp\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\van_d\MyWebApp\obj\Debug\net8.0\staticwebassets\msbuild.MyWebApp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\van_d\MyWebApp\obj\Debug\net8.0\staticwebassets\msbuild.build.MyWebApp.props
+C:\Users\van_d\MyWebApp\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MyWebApp.props
+C:\Users\van_d\MyWebApp\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MyWebApp.props
+C:\Users\van_d\MyWebApp\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\van_d\MyWebApp\obj\Debug\net8.0\scopedcss\bundle\MyWebApp.styles.css
+C:\Users\van_d\MyWebApp\obj\Debug\net8.0\MyWebApp.dll
+C:\Users\van_d\MyWebApp\obj\Debug\net8.0\refint\MyWebApp.dll
+C:\Users\van_d\MyWebApp\obj\Debug\net8.0\MyWebApp.pdb
+C:\Users\van_d\MyWebApp\obj\Debug\net8.0\MyWebApp.genruntimeconfig.cache
+C:\Users\van_d\MyWebApp\obj\Debug\net8.0\ref\MyWebApp.dll
+D:\Рабочий стол\SiteForUbuntuServer\MyWebApp\bin\Debug\net8.0\appsettings.Development.json
+D:\Рабочий стол\SiteForUbuntuServer\MyWebApp\bin\Debug\net8.0\appsettings.json
+D:\Рабочий стол\SiteForUbuntuServer\MyWebApp\bin\Debug\net8.0\MyWebApp.staticwebassets.endpoints.json
+D:\Рабочий стол\SiteForUbuntuServer\MyWebApp\bin\Debug\net8.0\MyWebApp.exe
+D:\Рабочий стол\SiteForUbuntuServer\MyWebApp\bin\Debug\net8.0\MyWebApp.deps.json
+D:\Рабочий стол\SiteForUbuntuServer\MyWebApp\bin\Debug\net8.0\MyWebApp.runtimeconfig.json
+D:\Рабочий стол\SiteForUbuntuServer\MyWebApp\bin\Debug\net8.0\MyWebApp.dll
+D:\Рабочий стол\SiteForUbuntuServer\MyWebApp\bin\Debug\net8.0\MyWebApp.pdb
+D:\Рабочий стол\SiteForUbuntuServer\MyWebApp\obj\Debug\net8.0\MyWebApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Рабочий стол\SiteForUbuntuServer\MyWebApp\obj\Debug\net8.0\MyWebApp.AssemblyInfoInputs.cache
+D:\Рабочий стол\SiteForUbuntuServer\MyWebApp\obj\Debug\net8.0\MyWebApp.AssemblyInfo.cs
+D:\Рабочий стол\SiteForUbuntuServer\MyWebApp\obj\Debug\net8.0\MyWebApp.csproj.CoreCompileInputs.cache
+D:\Рабочий стол\SiteForUbuntuServer\MyWebApp\obj\Debug\net8.0\MyWebApp.MvcApplicationPartsAssemblyInfo.cache
+D:\Рабочий стол\SiteForUbuntuServer\MyWebApp\obj\Debug\net8.0\MyWebApp.sourcelink.json
+D:\Рабочий стол\SiteForUbuntuServer\MyWebApp\obj\Debug\net8.0\scopedcss\bundle\MyWebApp.styles.css
+D:\Рабочий стол\SiteForUbuntuServer\MyWebApp\obj\Debug\net8.0\staticwebassets.build.json
+D:\Рабочий стол\SiteForUbuntuServer\MyWebApp\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Рабочий стол\SiteForUbuntuServer\MyWebApp\obj\Debug\net8.0\staticwebassets.development.json
+D:\Рабочий стол\SiteForUbuntuServer\MyWebApp\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Рабочий стол\SiteForUbuntuServer\MyWebApp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Рабочий стол\SiteForUbuntuServer\MyWebApp\obj\Debug\net8.0\MyWebApp.dll
+D:\Рабочий стол\SiteForUbuntuServer\MyWebApp\obj\Debug\net8.0\refint\MyWebApp.dll
+D:\Рабочий стол\SiteForUbuntuServer\MyWebApp\obj\Debug\net8.0\MyWebApp.pdb
+D:\Рабочий стол\SiteForUbuntuServer\MyWebApp\obj\Debug\net8.0\MyWebApp.genruntimeconfig.cache
+D:\Рабочий стол\SiteForUbuntuServer\MyWebApp\obj\Debug\net8.0\ref\MyWebApp.dll
