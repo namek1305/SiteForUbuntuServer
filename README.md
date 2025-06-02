@@ -24,7 +24,7 @@ https://github.com/settings/keys - куда надо вставить ключ
 потом Git clone [ссылка SSH]
 git clone git@github.com:namek1305/SiteForUbuntuServer.git ~/repo/MyWebApp
 
-5. cd ~/repo/MyWebApp/SiteForUbuntuServer/MyWebApp
+5. cd repo/MyWebApp мб ещё раз надо будет хз   или  cd SiteForUbuntuServer/MyWebApp                                                 !!!!! этот в крайнем случае !!!!!!!!!!! cd ~/repo/MyWebApp/SiteForUbuntuServer/MyWebApp
 
 dotnet build
 dotnet run --urls "http://0.0.0.0:5000"
@@ -64,6 +64,23 @@ server {
 }
 
 
+или это
+
+
+server {
+    listen 80;
+    location / {
+        proxy_pass http://localhost:5000;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection keep-alive;
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+
 sudo ln -s /etc/nginx/sites-available/mywebapp /etc/nginx/sites-enabled/
 
 sudo nginx -t
@@ -92,3 +109,7 @@ http://127.0.0.1:8080
 
 Получается у тебя сайт доступен по порту 5000 - это кестрель (встроенный .NET)
 А 8080 - nginx
+
+для тестов 
+curl http://localhost:80/health
+curl http://localhost:5050/health
