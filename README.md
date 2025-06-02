@@ -9,26 +9,28 @@ sudo systemctl start ssh
 2. Пробросы и настройка Putty (см рисунок 1 и 2)
 
 3. Установка .NET
- wget https://packages.microsoft.com/config/ubuntu/22.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
- sudo dpkg -i packages-microsoft-prod.deb
- sudo apt update
- sudo apt install -y dotnet-sdk-8.0
+wget https://packages.microsoft.com/config/ubuntu/22.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+sudo dpkg -i packages-microsoft-prod.deb
+sudo apt update
+sudo apt install -y dotnet-sdk-8.0
 
 4. Git
-ssh-keygen -t ed25519 -C "твой_email@пример.com" - ключ
+ssh-keygen -t ed25519 -C "namek1305@gmail.com" - ключ
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 cat ~/.ssh/id_ed25519.pub - содержание этого копируешь и вставляешь на гитхаб
+https://github.com/settings/keys - куда надо вставить ключ
 
 потом Git clone [ссылка SSH]
+git clone git@github.com:namek1305/SiteForUbuntuServer.git ~/repo/MyWebApp
 
-5. cd repo/MyWebApp (туда где .cs .csproj
+5. cd ~/repo/MyWebApp/SiteForUbuntuServer/MyWebApp
 
 dotnet build
 dotnet run --urls "http://0.0.0.0:5000"
 
 
-Потом  винде на http://localhost:5000/ 
+Потом  винде на http://localhost:5000/ или http://localhost:5000/health или http://localhost:5000/api/animeseries или http://localhost:5000/api/animecharacters
 И все должно работать
 
 
@@ -85,7 +87,7 @@ dotnet run --urls "http://0.0.0.0:5000"
 
 http://127.0.0.1:8080
 
-Должгл работать
+Должно работать
 
 
 Получается у тебя сайт доступен по порту 5000 - это кестрель (встроенный .NET)
